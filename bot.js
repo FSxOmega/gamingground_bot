@@ -29,7 +29,7 @@ client.on('message', message => {
         message.channel.send({embed: {
   color: 0x00ff00,
   
-  description: "Damn... here you got them - :info // :yt // :invite // :donate // :support // More Commands will come soon!"
+  description: "Ok, here you got them - :info // :yt // :invite // :donate // More Commands will come soon!"
 
 }});
       }  
@@ -71,16 +71,5 @@ client.on('message', message => {
       }
 });
 
-//Command +support
-client.on('message', message => {
-    if (message.content === prefix + 'support') {
-
-        message.channel.send({embed: {
-  color: 0x00ff00,
- 
-  description: "Wanna join my Support Discord Server? - https://discord.gg/mvwaBr4'"
-}});
-      }
-});
 
 client.login(process.env.BOT_TOKEN);
