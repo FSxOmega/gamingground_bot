@@ -29,7 +29,7 @@ client.on('message', message => {
         message.channel.send({embed: {
   color: 0x00ff00,
   
-  description: "Ok, here you got them - :info // :yt // :invite // :donate // More Commands will come soon!"
+  description: "Ok, here you got them - g/info // g/yt // g/invite // g/donate // More Commands will come soon!"
 
 }});
       }  
@@ -53,7 +53,7 @@ client.on('message', message => {
         message.channel.send({embed: {
   color: 0x00ff00,
 
-  description: "Wanna invite me to your Server? - htthttps://discordapp.com/api/oauth2/authorize?client_id=470947779397550081&permissions=8&scope=bot"
+  description: "Wanna invite me to your Server? - https://discordapp.com/api/oauth2/authorize?client_id=470947779397550081&permissions=8&scope=bot"
 }});
 
       }  
